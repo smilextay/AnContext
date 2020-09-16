@@ -1,5 +1,8 @@
 package ancontext
 
+/*
+*一个基础是context，提供代理功能
+ */
 import (
 	"context"
 	"fmt"
@@ -9,9 +12,6 @@ import (
 	"time"
 )
 
-/*
-*一个基础是context，提供代理功能
- *//
 type anCtx struct {
 	client *http.Client
 }
